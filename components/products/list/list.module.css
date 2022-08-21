@@ -1,0 +1,20 @@
+.product-list-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2.5rem;
+  align-items: center;
+  justify-content: left;
+}
+
+@media (min-width: 480px) {
+  .product-list {
+    gap: 4rem;
+  }
+}
+

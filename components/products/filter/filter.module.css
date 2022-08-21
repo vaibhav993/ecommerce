@@ -1,0 +1,42 @@
+.filter {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  align-content: stretch;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  box-shadow: 8px 8px 16px 8px var(--color-primary);
+  padding: 0.75rem 2rem;
+}
+
+.filter .filter-item {
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.filter span{
+  font-weight: bold;
+}
+
+.filter ul{
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+.filter ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .filter {
+    min-width: 12rem;
+    max-width: 20rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+}

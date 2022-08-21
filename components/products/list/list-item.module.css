@@ -1,0 +1,36 @@
+
+.product-item {
+  padding: 10px;
+  box-shadow: 8px 8px 16px 8px var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-item .hero{
+  position: relative;
+  min-width: 200px;
+  height: 150px;
+}
+
+.product-item .hero h3{
+  position: absolute;
+  padding: 0.75rem;
+}
+
+.product-item .description{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-item .description h4{
+  padding: 0 0.75rem;
+}
+
+.product-item .description button{
+  background-color: var(--color-primary-button);
+  color: var(--color-primary-button-text);
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+}

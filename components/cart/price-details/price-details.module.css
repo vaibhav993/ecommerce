@@ -1,0 +1,25 @@
+.price-details {
+  padding: 10px;
+  box-shadow: 8px 8px 16px 8px var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price-details h4 {
+  padding: 1rem 0;
+  border-bottom: 1px dashed;
+}
+
+.price-details .base-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-details .base-total {
+  padding: 1rem 0;
+  border-top: 1px dashed;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}

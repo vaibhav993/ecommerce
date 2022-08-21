@@ -1,0 +1,6 @@
+.logo {
+  font-size: var(--size-5);
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: var(--color-primary-text);
+}
