@@ -51,7 +51,7 @@ const Filter = memo(({ filters }) => {
                 return (
                   <li data-testid='filter-group-item' key={label}>
                     <input
-                      data-testid='filter-group-item-checkbox'
+                      data-testid={`filter-group-item-checkbox-${label}`}
                       type='checkbox'
                       defaultChecked={isHaveValue(query[by], value)}
                       name={label}

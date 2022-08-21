@@ -1,6 +1,7 @@
 .product-list-section {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .product-list {

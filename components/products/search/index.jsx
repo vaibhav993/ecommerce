@@ -26,6 +26,7 @@ const Search = memo(() => {
     <form data-testid='search-products' className={classes.form} onSubmit={onSubmit}>
       <input
         ref={searchRef}
+        data-testid='search'
         name='search'
         placeholder='Search for products...'
       />

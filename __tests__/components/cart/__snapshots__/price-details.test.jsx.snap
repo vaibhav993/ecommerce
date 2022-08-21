@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceDetails renders PriceDetails 1`] = `
+<div>
+  <div
+    class="price-details"
+  >
+    <h4
+      data-testid="price-details-title"
+    >
+      Price Details (2 items)
+    </h4>
+    <div
+      class="base-row"
+    >
+      <span>
+        Total MRP
+      </span>
+      <span
+        data-testid="mrp-price"
+      >
+        ₹750.00
+      </span>
+    </div>
+    <div
+      class="base-row"
+    >
+      <span>
+        Discount
+      </span>
+      <span
+        data-testid="discount"
+      >
+        -₹0.00
+      </span>
+    </div>
+    <div
+      class="base-row"
+    >
+      <span>
+        Delivery Charges
+      </span>
+      <span
+        data-testid="delivery-charges"
+      >
+        FREE
+      </span>
+    </div>
+    <div
+      class="base-total"
+    >
+      <span>
+        Total Amount
+      </span>
+      <span
+        data-testid="total-amount"
+      >
+        ₹750.00
+      </span>
+    </div>
+  </div>
+</div>
+`;
